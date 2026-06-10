@@ -20,3 +20,9 @@ const ANIO_FUNDACION = 1963;
 let num = 2;
 num += 5;
 console.log(num);
+//
+let NATURALES = [];
+for (let i = 1; i < 19; i++) {
+    NATURALES.push(i);
+    console.log(NATURALES);
+}
