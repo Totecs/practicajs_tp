@@ -16,3 +16,7 @@ let cantidadEntradas = 0;
 cantidadEntradas = 1;
 //
 const ANIO_FUNDACION = 1963;
+//
+let num = 2;
+num += 5;
+console.log(num);
