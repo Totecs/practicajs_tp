@@ -68,10 +68,24 @@ let NUM = [];
 let FILT = [];
 for (let i = 0; i <=5; i++){
     NUM.push(Math.floor(Math.random()*11));
+    console.log(NUM); 
 }
 for (i = 0; i <= 5; i++){
     if (NUM[i]>2 && NUM[i]<8){
         FILT.push(NUM[i]);
-        console.log(NUM)
+        console.log(FILT)
+    }    
+}
+//
+let NUM = [];
+let FILT = [];
+for (let i = 0; i <=5; i++){
+    NUM.push(Math.floor(Math.random()*11));
+    console.log(NUM); 
+}
+for (i = 0; i <= 5; i++){
+    if (NUM[i]<8){
+        FILT.push(NUM[i]);
+        console.log(FILT)
     }    
 }
