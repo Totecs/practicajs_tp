@@ -35,3 +35,19 @@ for (let i = 35; i > 0;) {
     }
     i--;
 }
+//
+
+let RESULTADO = [NATURALES[0], NATURALES[1], NATURALES[2], NATURALES[15], NATURALES[16], NATURALES[17]];
+console.log(RESULTADO);
+//
+let ORIGEN = [];
+let DESTINO = [];
+for (let i = 0; i < 5;i++){
+    let numberOrigen = prompt ("Ingresa un numero ");
+    ORIGEN.push(Number(numberOrigen));
+    console.log(ORIGEN);
+}
+for (let i = 0; i < 5;i++){
+    DESTINO.push(ORIGEN[i]);
+    console.log(DESTINO);
+}
