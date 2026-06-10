@@ -15,3 +15,4 @@ let materiaFavorita = "Fisica";
 let cantidadEntradas = 0;
 cantidadEntradas = 1;
 //
+const ANIO_FUNDACION = 1963;
