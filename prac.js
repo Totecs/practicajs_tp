@@ -26,3 +26,12 @@ for (let i = 1; i < 19; i++) {
     NATURALES.push(i);
     console.log(NATURALES);
 }
+//
+let NATURALES = [];
+for (let i = 35; i > 0;) {
+    if (i % 2 != 0){
+        NATURALES.push(i);
+        console.log(NATURALES);
+    }
+    i--;
+}
