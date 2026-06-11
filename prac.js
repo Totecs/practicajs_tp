@@ -104,15 +104,19 @@ for (i = 0; i <= 5; i++){
 }    
 //
 let IMPARES = [];
-let cantidadPregunta = prompt("ingresa el largo del arreglo")
+let cantidadPregunta = prompt("ingresa el largo del arreglo ")
 let cantidad = Number(cantidadPregunta);
-for (let i = 1; i == cantidad; i++ ){
+for (let i = 1; i <= cantidad;){
     let random = Math.floor(Math.random()*11);
-    if (random % 2 != 0){
-        IMPARES.push(random);    
+    if (random % 2 !== 0){
+        IMPARES.push(random); 
+        i++
     }
+    console.log(IMPARES);
+
 }
-console.log(IMPARES);
-IMPARES[1]=IMPARES[cantidad];
-IMPARES[cantidad]=IMPARES[1];
+console.log("antes: ", IMPARES);
+let cnt = IMPARES[0];
+IMPARES[0] = IMPARES[cantidad-1];
+IMPARES[cantidad-1] = cnt;
 console.log(IMPARES);
