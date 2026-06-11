@@ -76,7 +76,6 @@ for (i = 0; i <= 5; i++){
         console.log(FILT)
     }    
 }
-
 //
 let NUM = [];
 let FILT = [];
@@ -103,3 +102,17 @@ for (i = 0; i <= 5; i++){
         console.log(FILT)
     }    
 }    
+//
+let IMPARES = [];
+let cantidadPregunta = prompt("ingresa el largo del arreglo")
+let cantidad = Number(cantidadPregunta);
+for (let i = 1; i == cantidad; i++ ){
+    let random = Math.floor(Math.random()*11);
+    if (random % 2 != 0){
+        IMPARES.push(random);    
+    }
+}
+console.log(IMPARES);
+IMPARES[1]=IMPARES[cantidad];
+IMPARES[cantidad]=IMPARES[1];
+console.log(IMPARES);
