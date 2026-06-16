@@ -132,6 +132,4 @@ for (let i = 0; i < N; i++){
 }
 console.log("numeros ", NATURALES);
 console.log("suma ", numFinal);
-//
-// PRACTICO 2
-//
+
