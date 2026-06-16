@@ -120,3 +120,5 @@ let cnt = IMPARES[0];
 IMPARES[0] = IMPARES[cantidad-1];
 IMPARES[cantidad-1] = cnt;
 console.log(IMPARES);
+//
+
