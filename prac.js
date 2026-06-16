@@ -104,7 +104,7 @@ for (i = 0; i <= 5; i++){
 }    
 //
 let IMPARES = [];
-let cantidadPregunta = prompt("ingresa el largo del arreglo ")
+let cantidadPregunta = prompt("ingresa el largo del arreglo ");
 let cantidad = Number(cantidadPregunta);
 for (let i = 1; i <= cantidad;){
     let random = Math.floor(Math.random()*11);
@@ -121,4 +121,17 @@ IMPARES[0] = IMPARES[cantidad-1];
 IMPARES[cantidad-1] = cnt;
 console.log(IMPARES);
 //
-
+let NATURALES = [];
+let N = prompt("ingresa el largo del arreglo ");
+let numArray = 5;
+let numFinal = 0;
+for (let i = 0; i < N; i++){
+    NATURALES.push(numArray);
+    numFinal += numArray;
+    numArray++;
+}
+console.log("numeros ", NATURALES);
+console.log("suma ", numFinal);
+//
+// PRACTICO 2
+//
